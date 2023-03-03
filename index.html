@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        <meta name="viewport" content = "width = device-width" initial-scale="1"/>
+	<title>D'Coder - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/25a642a0f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/logo.png">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fas fa-times" onclick="closemenu()"></i>
+			</ul>
+			<i class="fas fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>GRAPHICS/WEB frontend Designer</p>
+			<h1>Hi, I'm Junior<span> D'Coder</span><br>From Cameroon</h1>
+		</div>
+	</div>
+</div>
+<!-----------About------------------>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/one.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>I'm a young ambitious guy with so much love for technological advancement. I am currently undergoing an undergraduate program, pursuing a Bachelor's in Computer Engineering. I'm 18 years of age and this happens to be my first official portfolio publication. I have some specialties and skills as you'll see below.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+						<li><span>Web Development</span><br>Web App Development</li>
+						<li><span>Graphic</span><br>Designing Graphics</li>
+						<li><span>Programming Languages</span><br>HTML  & CSS, C/C++, Game Development with Javascipt, Python</li>
+						<li><span>Expressive Languages</span><br>English & French</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2022 - Current</span><br>Intern at Sky8</li>
+						<li><span>2021 - 2022</span><br>Graphic Designer at Kvisuals</li>
+						<li><span>2020 - 2021</span><br>Frontend Web Developer Bafoussam</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2023</span><br>Computer Engineering University of Bamenda</li>
+						<li><span>2022</span><br>National Higher Polytechnic Institute University of Bamenda</li>
+						<li><span>2021</span><br>G.C.E Advance Level R.B.C Bafoussam</li>
+						<li><span>2020</span><br>G.C.E Ordinary Level R.B.C Bafoussam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-----------service---------------->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fas fa-code"></i>
+				<h2>Web Design</h2>
+				<p>I'm a frontend web designer with quality design skills, delivered to you at your conveninence. Make me your designer.</p>
+				<a href="">Learn more</a>
+			</div>
+			<div>
+				<i class="fas fa-crop-alt"></i>
+				<h2>S.E.O</h2>
+				<p>Adding to designing websites, i also provide Search Engine Optimization to customers who own websites. Amazing right!</p>
+				<a href="">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-sketch"></i>
+				<h2>Graphic Design</h2>
+				<p>Be it logos, flyers, posters, banners or whatsoever graphic you might need, my services are open to you. Quality top notch designs</p>
+				<a href="">Learn more</a>
+			</div>
+			<div>
+				<i class="fab fa-app-store"></i>
+				<h2>Web Game Development</h2>
+				<p>With a good mastery of Javascipt for game development, i could bring that your gaming idea into reality. Checkout a game i did of recent during my leisure time</p>
+				<a href="">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------Portfolio------------------->
+<div id="portfolio">
+	
+	<div class="container">
+		<h1 class="sub-title">My Designs</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>Calculator App</h3>
+					<p>This is a simple web Calculator App with basic arithmetic operations. The logic of this Calculator was built with JavaScript and its interface with HTML5 and CSS.</p>
+					<a href="https://github.com/JuniorDCoder/DCoder-Calculator"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Object Game</h3>
+					<p>This game was the first i ever did. Though it is not really interactive, i still keep in my archives to encourage younger developers. </p>
+					<a href="http://deco.unaux.com/?i=1"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>Portfolio Website</h3>
+					<p>This is the first ever website i got hosted on the internet. Some good progress here!.</p>
+					<a href=""><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+		</div>
+		<a class="btn" href="">See more</a>
+	</div>
+</div>
+<!----------contact------------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-regular fa-envelopes"></i>Juniordecoder@mail.com</p>
+				<p><i class="fas fa-phone-square-alt"></i>+237677802114</p>
+                                <p><i class="fas fa-phone-square-alt"></i>+237655173129</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/moffor.juniorpraise"><i class="fab fa-facebook"></i></a>
+					<a href="https://t.me/d_coderr"><i class="fab fa-telegram"></i></a>
+					<a href="https://wa.link/iqkl4s"><i class="fab fa-whatsapp"></i></a>
+					<a href="https://ig.me/m/juniordcoder"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/foryoung-junior-24887b206"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/resume.jpg" download class="btn btn2">Download Resume</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required="">
+					<input id="email" type="email" name="Email" placeholder="Your Email" required="">
+					<textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ D'Coder. Made with only <em>HTML5/CSS/JS</em></p>
+	</div>
+</div>
+<script type="text/javascript">
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	} 
+</script>
+
+<script type="text/javascript">
+	
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right ="0";
+	}
+	function closemenu(){
+		sidemenu.style.right ="-200px";
+	}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzqzDrHIoIR7Gvanjs3sgY8pEa94leHiL9gUlAWVOWBXmBQnggvlzfvS73DTwpUsXJ2/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message Sent Successfully.\nHave an Octotastic Day!"
+      	setTimeout(function(){
+      		msg.innerHTMl = " "
+      	},1000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
